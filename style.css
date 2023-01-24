@@ -29,7 +29,7 @@ body * {
 
 #logo {
   width: clamp(2vw, 10em, 30vw);
-  margin-right: 1rem;
+
 }
 
 /*classe para fazer um elemento sumir para o usuário e continuar visivel para o leitor de tela*/
@@ -47,13 +47,13 @@ body * {
 
 #app {
   padding: 2rem;
-  width: clamp(2vw, 2em, 5vw);
+  width: clamp(2vw, 2em, 105vw);
   
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 
-  flex-direction: column;
+  gap: 4rem;
 }
 
 header {
