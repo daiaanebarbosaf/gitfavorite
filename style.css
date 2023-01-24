@@ -6,13 +6,14 @@
 
 :root {
   font-size: 62.5%;
-  --ff-primary: 'Poppins', sans-serif;
+  --ff-primary: 'Roboto', sans-serif;
   --text-color: #303030;
+  --text-color-secundary: #7C7C8A;
 
   --hue: 194;
   --primary-color: hsl(var(--hue), 100%, 63%);
-  --bg-primary-color: #06161B;
-  ;
+  --bg-primary-color: #000000;
+  --bg-secundary-color: #06181C;
 }
 
 body {
@@ -67,15 +68,22 @@ header {
 .search {
   display: flex;
   align-items: center;
-
-  
 }
 
 .search input {
   width: clamp(46vw, 2em, 5vw);
   height: 3.2rem;
-  border: 1px solid #ccc;
-  border-radius: .4rem 0 0 .4rem;
+  border: none;
+  border-radius: 5px;
+
+  background: var(--bg-secundary-color);
+  color: var(--text-color-secundary) ;
+
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+
   padding: 0 .8rem;
 }
 
