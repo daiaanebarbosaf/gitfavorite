@@ -93,7 +93,7 @@ header {
 }
 
 #star {
-  width: clamp(2rem, 1em, 30vw);
+  width: clamp(2rem, .1em, 50vw);
 }
 
 .search button {
@@ -102,7 +102,7 @@ header {
   border: none;
 
   height: 4.8rem;
-  width: clamp(17vw, 2em, 5vw);
+  width: clamp(17vw, 2vw, 5vw);
   cursor: pointer;
 
   display: flex;
@@ -113,10 +113,10 @@ header {
 
 #send-favorite p {
   text-transform: uppercase;
-  color: var(--text-color-third);
-  font-style: normal;
   font-weight: 700;
-  font-size: clamp(0.5rem, 1rem, 5vw);
+  font-size: clamp(1.4rem, 1rem, 5vw);
+
+  color: var(--text-color-third);
 }
 
 .search button:hover {
