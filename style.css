@@ -29,7 +29,7 @@ body * {
 
 #logo {
   width: clamp(2vw, 10em, 30vw);
-
+  margin-right: 2rem;
 }
 
 /*classe para fazer um elemento sumir para o usuário e continuar visivel para o leitor de tela*/
@@ -62,11 +62,6 @@ header {
   justify-content: space-between;
 
   margin: 2.5rem 0;
-}
-
-header h1 {
-  font-size: 2rem;
-  text-transform: uppercase;
 }
 
 .search {
