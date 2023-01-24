@@ -85,11 +85,15 @@ header {
   font-family: var(--ff-primary);
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: clamp(1rem, 1.3rem, 5vw);
 
   padding: 0 .8rem;
 
   margin-right: 1rem;
+}
+
+#star {
+  width: clamp(2rem, 1em, 30vw);
 }
 
 .search button {
@@ -99,20 +103,20 @@ header {
 
   height: 4.8rem;
   width: clamp(17vw, 2em, 5vw);
-
-
   cursor: pointer;
-
-  text-transform: uppercase;
-  color: var(--text-color-third);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.4rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+#send-favorite p {
+  text-transform: uppercase;
+  color: var(--text-color-third);
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(0.5rem, 1rem, 5vw);
 }
 
 .search button:hover {
