@@ -67,9 +67,12 @@ header {
 .search {
   display: flex;
   align-items: center;
+
+  
 }
 
 .search input {
+  width: clamp(46vw, 2em, 5vw);
   height: 3.2rem;
   border: 1px solid #ccc;
   border-radius: .4rem 0 0 .4rem;
@@ -79,9 +82,14 @@ header {
 .search button {
   background-color: var(--primary-color);
   border-radius: 0 .4rem .4rem 0;
-  height: 3.2rem;
   border: none;
+
+  height: 3.2rem;
+  width: clamp(12vw, 2em, 5vw);
+
   padding: 0 1rem;
+
+  margin: 1rem;
 
   cursor: pointer;
 }
