@@ -11,17 +11,25 @@
 
   --hue: 194;
   --primary-color: hsl(var(--hue), 100%, 63%);
-  --bg-primary-color: #2F2F33;
+  --bg-primary-color: #06161B;
+  ;
 }
 
 body {
   font-size: 1.6rem;
   color: var(--text-color);
   background-color: var(--bg-primary-color);
+  height: 100vh;
+  width: min(42.8rem, 70%);
 }
 
 body * {
   font-family: var(--ff-primary);
+}
+
+#logo {
+  width: clamp(2vw, 10em, 30vw);
+  margin-right: 1rem;
 }
 
 /*classe para fazer um elemento sumir para o usuário e continuar visivel para o leitor de tela*/
@@ -39,8 +47,13 @@ body * {
 
 #app {
   padding: 2rem;
-  max-width: 500px;
-  margin: 0 auto;
+  width: clamp(2vw, 2em, 5vw);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
 }
 
 header {
