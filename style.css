@@ -11,7 +11,7 @@
 
   --hue: 194;
   --primary-color: hsl(var(--hue), 100%, 63%);
-  --bg-primary-color: rgb(250, 254, 255);
+  --bg-primary-color: #2F2F33;
 }
 
 body {
