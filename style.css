@@ -9,9 +9,11 @@
   --ff-primary: 'Roboto', sans-serif;
   --text-color: #303030;
   --text-color-secundary: #7C7C8A;
+  --text-color-third: #FFFFFF;
 
-  --hue: 194;
-  --primary-color: hsl(var(--hue), 100%, 63%);
+
+  --hue: 195;
+  --primary-color: hsla(var(--hue), 91%, 25%, 1);
   --bg-primary-color: #000000;
   --bg-secundary-color: #06181C;
 }
@@ -30,7 +32,7 @@ body * {
 
 #logo {
   width: clamp(2vw, 10em, 30vw);
-  margin-right: 2rem;
+  margin: 1rem;
 }
 
 /*classe para fazer um elemento sumir para o usuário e continuar visivel para o leitor de tela*/
@@ -73,7 +75,7 @@ header {
 
 .search input {
   width: clamp(46vw, 2em, 5vw);
-  height: 3.2rem;
+  height: 4.8rem;
   border: none;
   border-radius: 5px;
 
@@ -86,21 +88,31 @@ header {
   font-size: 1.3rem;
 
   padding: 0 .8rem;
+
+  margin-right: 1rem;
 }
 
 .search button {
   background-color: var(--primary-color);
-  border-radius: 0 .4rem .4rem 0;
+  border-radius: 5px;
   border: none;
 
-  height: 3.2rem;
-  width: clamp(12vw, 2em, 5vw);
+  height: 4.8rem;
+  width: clamp(17vw, 2em, 5vw);
 
-  padding: 0 1rem;
-
-  margin: 1rem;
 
   cursor: pointer;
+
+  text-transform: uppercase;
+  color: var(--text-color-third);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .search button:hover {
