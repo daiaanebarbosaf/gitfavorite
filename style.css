@@ -21,7 +21,7 @@ body {
   color: var(--text-color);
   background-color: var(--bg-primary-color);
   height: 100vh;
-  width: min(42.8rem, 70%);
+  
 }
 
 body * {
@@ -48,10 +48,11 @@ body * {
 
 #app {
   padding: 2rem;
-  width: clamp(2vw, 2em, 105vw);
+
   
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 
   gap: 4rem;
