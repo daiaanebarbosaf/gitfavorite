@@ -10,6 +10,7 @@
   --text-color: #303030;
   --text-color-secundary: #7C7C8A;
   --text-color-third: #FFFFFF;
+  --text-color-fourth:#E1E1E6;
 
 
   --hue: 195;
@@ -134,7 +135,12 @@ table {
 
 table * {
   font-size: 1.4rem;
-  color: var(--text-color);
+  color: var(--text-color-fourth);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+
 }
 
 table th {
