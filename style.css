@@ -130,7 +130,9 @@ header {
 table {
   width: 90%;
   border-collapse: collapse;
-  box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+  
+  border-radius: 12px;
+  border: 1px solid #4A808C;
 }
 
 table * {
@@ -150,12 +152,12 @@ table th {
   padding: 1.5rem;
 }
 
-table th:first-child {
-  border-top-left-radius: .4rem;
+/*table th:first-child {
+  border-top-left-radius: .5rem;
 }
 
 table th:last-child {
-  border-top-right-radius: .4rem;
+  border-top-right-radius: .5rem;
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
