@@ -51,7 +51,6 @@ body * {
 #app {
   padding: 2rem;
 
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,8 +108,6 @@ header {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-
-  
 }
 
 #send-favorite p {
@@ -126,7 +123,7 @@ header {
 }
 
 table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
   box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
 }
