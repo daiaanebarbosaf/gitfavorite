@@ -109,6 +109,8 @@ header {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+
+  
 }
 
 #send-favorite p {
@@ -191,4 +193,24 @@ td .remove {
   color: red;
 
   cursor: pointer;
+}
+
+@media (max-width:700px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #send-favorite p{
+    display: none;
+  }
+
+  #send-favorite {
+    margin-right: 4rem;
+  }
+
+  #logo {
+    margin: 2rem;
+  }
 }
