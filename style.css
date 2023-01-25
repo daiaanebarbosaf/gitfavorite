@@ -130,9 +130,12 @@ header {
 table {
   width: 90%;
   border-collapse: collapse;
-  
-  border-radius: 12px;
-  border: 1px solid #4A808C;
+
+}
+
+table tr {
+  border-radius: 50px;
+
 }
 
 table * {
@@ -143,10 +146,12 @@ table * {
   font-weight: 700;
   font-size: 2rem;
 
+  border-radius: 50px;
+
 }
 
 table th {
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   text-align: left;
   font-weight: normal;
   padding: 1.5rem;
