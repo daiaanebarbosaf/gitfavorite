@@ -23,17 +23,16 @@ body {
   color: var(--text-color);
   background-color: var(--bg-primary-color);
   height: 100vh;
+  width: 100%
   
-  background-image: url("/assets/logo.svg");
+  /*background-image: url("/assets/logo.svg");
   background-repeat: no-repeat;
-  background-position: 7% 11%;
+  background-position: 7% 11%;*/
 }
 
 body * {
   font-family: var(--ff-primary);
 }
-
-
 
 #logo {
   width: clamp(2vw, 10em, 30vw);
@@ -68,6 +67,8 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 2.5rem 0;
+
+  width: 90%
 }
 
 .search {
