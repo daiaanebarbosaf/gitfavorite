@@ -105,7 +105,7 @@ header {
   border: none;
 
   height: 4.8rem;
-  width: clamp(17vw, 2vw, 5vw);
+  width: clamp(15vw, 2vw, 5vw);
   cursor: pointer;
 
   display: flex;
