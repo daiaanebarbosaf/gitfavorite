@@ -129,14 +129,8 @@ header {
 
 table {
   width: 90%;
-  border-collapse: collapse;
-
 }
 
-table tr {
-  border-radius: 50px;
-
-}
 
 table * {
   font-size: 1.4rem;
@@ -145,8 +139,7 @@ table * {
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
-
-  border-radius: 50px;
+  
 
 }
 
@@ -155,18 +148,24 @@ table th {
   text-align: left;
   font-weight: normal;
   padding: 1.5rem;
+
+  border: 1px solid #4A808C;
+
 }
 
-/*table th:first-child {
-  border-top-left-radius: .5rem;
+table th:first-child {
+  
+  border-top-left-radius: 1.2rem;
 }
 
 table th:last-child {
-  border-top-right-radius: .5rem;
+  border-top-right-radius: 1.2rem;
+  
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
   background: #eee;
+  
 }
 /* adicionando um backgroun diferente nas linhas pares*/
 table tr:nth-child(odd){
