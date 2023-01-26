@@ -147,7 +147,7 @@ table th {
   text-align: left;
   font-weight: normal;
   font-weight: 700;
-  
+
   padding: 1.5rem;
 }
 
@@ -204,7 +204,8 @@ td .remove {
   background: none;
   border: none;
 
-  color: red;
+  color: #F75A68;
+  font-weight: bold;
 
   cursor: pointer;
 }
