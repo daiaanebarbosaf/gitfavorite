@@ -209,8 +209,17 @@ td .remove {
   cursor: pointer;
 }
 
-#star-sad {
+#td-home {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#star-sad {
+
+  width: 30%;
+
 }
 
 @media (max-width:700px) {
