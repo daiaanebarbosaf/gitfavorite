@@ -17,6 +17,7 @@
   --primary-color: hsla(var(--hue), 91%, 25%, 1);
   --bg-primary-color: #000000;
   --bg-secundary-color: #06181C;
+  --bg-third-color: #092D38;
 }
 
 body {
@@ -148,7 +149,7 @@ table * {
 }
 
 table th {
-  background-color: var(--primary-color);
+  background-color: var(--bg-third-color);
   text-align: left;
   font-weight: normal;
   padding: 1.5rem;
