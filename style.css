@@ -152,9 +152,6 @@ table th {
   text-align: left;
   font-weight: normal;
   padding: 1.5rem;
-
-
-
 }
 
 table th:first-child {
@@ -168,12 +165,12 @@ table th:last-child {
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
-  background: #06161B;
+  background: rgba(6, 22, 27, 0.5);
   
 }
 /* adicionando um backgroun diferente nas linhas pares*/
 table tr:nth-child(odd){
-  background: #4A808C;
+  background: #06181C;
 }
 
 table td {
