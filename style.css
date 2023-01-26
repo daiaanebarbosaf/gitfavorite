@@ -139,19 +139,15 @@ table {
 
 
 table * {
-
   color: var(--text-color-fourth);
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2rem;
-
 }
 
 table th {
   background-color: var(--bg-third-color);
   text-align: left;
   font-weight: normal;
+  font-weight: 700;
+  
   padding: 1.5rem;
 }
 
@@ -177,6 +173,7 @@ table tr:nth-child(odd){
 table td {
   padding: 1.5rem;
   text-align: left;
+  
 }
 
 td.user {
@@ -195,6 +192,8 @@ td.user img {
 
 td.user a {
   text-decoration: none;
+  font-weight: 400;
+
 }
 
 td.user a p {
