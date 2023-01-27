@@ -129,9 +129,11 @@ header {
 }
 
 table {
-  width: 80%;
+
   border: 1px solid #4A808C;
   border-collapse: collapse;
+
+  width: clamp(30%, 90%, 77vw);
 }
 
 table * {
@@ -151,7 +153,6 @@ table th {
 
 table th:first-child {
   border-top-left-radius: 1.2rem;
-  
 }
 
 table th:last-child {
@@ -207,7 +208,7 @@ td .remove {
 }
 
 #page-home {
-  width: 80%;
+  width: clamp(30%, 90%, 77vw);
 
   margin-top: -4rem;
   padding: 10rem;
@@ -215,7 +216,7 @@ td .remove {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   gap: 2rem;
 
   border-left: 1px solid #4A808C;
