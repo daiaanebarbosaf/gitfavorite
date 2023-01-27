@@ -70,7 +70,7 @@ header {
   justify-content: space-between;
   margin: 2.5rem 0;
 
-  width: 90%
+  width: 80%
 }
 
 .search {
@@ -129,9 +129,8 @@ header {
 }
 
 table {
-  width: 90%;
+  width: 80%;
   border: 1px solid #4A808C;
-
   border-collapse: collapse;
 }
 
@@ -146,7 +145,7 @@ table th {
   font-weight: normal;
   font-weight: 700;
   font-size: clamp(1rem, 1.5rem, 5vw);
-  
+
   padding: 1.5rem;
 }
 
@@ -171,7 +170,6 @@ table tr:nth-child(odd){
 table td {
   padding: 1.5rem;
   text-align: left;
-  
 }
 
 td.user {
@@ -209,7 +207,7 @@ td .remove {
 }
 
 #page-home {
-  width: 90%;
+  width: 80%;
 
   padding: 10rem;
   display: flex;
