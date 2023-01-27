@@ -132,11 +132,9 @@ table {
   width: 90%;
   border: 1px solid #4A808C;
   
-  
 
   border-collapse: collapse;
 }
-
 
 table * {
   color: var(--text-color-fourth);
@@ -214,6 +212,8 @@ td .remove {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  border: 1px solid #4A808C;
 }
 
 #star-sad {
