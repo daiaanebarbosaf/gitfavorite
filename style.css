@@ -148,11 +148,17 @@ table th {
   font-weight: 700;
   font-size: clamp(1rem, 1.5rem, 5vw);
 
-  padding: 1.5rem;
+
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+
 }
 
 table th:first-child {
   border-top-left-radius: 1.2rem;
+  padding-left: 1rem;
 }
 
 table th:last-child {
