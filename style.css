@@ -131,7 +131,6 @@ header {
 table {
   width: 90%;
   border: 1px solid #4A808C;
-  
 
   border-collapse: collapse;
 }
@@ -142,10 +141,12 @@ table * {
 
 table th {
   background-color: var(--bg-third-color);
+
   text-align: left;
   font-weight: normal;
   font-weight: 700;
-
+  font-size: clamp(1rem, 1.5rem, 5vw);
+  
   padding: 1.5rem;
 }
 
@@ -207,13 +208,16 @@ td .remove {
   cursor: pointer;
 }
 
-#table-home {
+#page-home {
   width: 90%;
+
+  padding: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 1px solid #4A808C;
+
+  z-index: -10;
 }
 
 #star-sad {
