@@ -215,7 +215,13 @@ td .remove {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #4A808C;
+
+  gap: 1rem;
+
+
+  border-left: 1px solid #4A808C;
+  border-right: 1px solid #4A808C;
+  border-bottom: 1px solid #4A808C;
 }
 
 #star-sad {
@@ -225,7 +231,8 @@ td .remove {
 #page-home p {
   font-style: normal;
   font-weight: 700;
-  font-size: 4rem;
+
+  font-size: clamp(1rem, 4rem, 5vw);
 }
 
 @media (max-width:700px) {
