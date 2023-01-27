@@ -215,9 +215,8 @@ td .remove {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  gap: 6rem;
-
+  
+  gap: 2rem;
 
   border-left: 1px solid #4A808C;
   border-right: 1px solid #4A808C;
@@ -225,7 +224,7 @@ td .remove {
 }
 
 #star-sad {
-  width: 20%;
+  width: clamp(2vw, 10em, 30vw);
 }
 
 #page-home p {
