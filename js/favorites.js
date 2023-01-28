@@ -130,6 +130,7 @@ export class FavoritesView extends Favorites {
       this.root.querySelector('.page-home').classList.remove('hide')
     } else {
         this.root.querySelector('.page-home').classList.add('hide')
+        this.root.querySelector('input').value = ''
     }
   }
 }
