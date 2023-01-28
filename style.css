@@ -178,11 +178,9 @@ table th {
 
 table th:first-child {
   padding-left: 1rem;
-  
 }
 
 table th:last-child {
-  
   border: none;
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
@@ -196,8 +194,9 @@ table tr:nth-child(odd){
 }
 
 table td {
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: left;
+  font-size: clamp(1rem, 1.5rem, 3vw);
 
   border-bottom: 1px solid var(--border-color);
 }
@@ -298,12 +297,12 @@ td .remove {
   }
 
   table {
-    width: 50%;
+    width: clamp(30%, 90%, 0vw);
   }
 
-  table td {
-    padding: .5rem;
-  }
+  table th {
+    font-size: clamp(1rem, 1rem, 5vw);
+  } 
   
   td.user {
     gap: 1rem;
