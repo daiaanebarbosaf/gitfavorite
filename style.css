@@ -147,9 +147,11 @@ table {
 
   border-top-right-radius: 1.2rem;
   border-top-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
 
   border: 1px solid var(--border-color);
-  border-bottom: none;
+ 
 
   overflow: hidden;
 
@@ -166,6 +168,7 @@ table * {
 table th {
   background-color: var(--bg-third-color);
 
+
   text-align: left;
   font-weight: normal;
   font-weight: 700;
@@ -179,13 +182,12 @@ table th {
 
 table th:first-child {
  
-  border-radius: 0rem;
   padding-left: 1rem;
   
 }
 
 table th:last-child {
-  border-bottom-right-radius: none;
+  
   border: none;
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
