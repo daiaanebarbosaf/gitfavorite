@@ -38,7 +38,7 @@ body * {
 }
 
 #logo {
-  width: clamp(2vw, 10em, 30vw);
+  width: clamp(5vw, 10em, 30vw);
 }
 
 /*classe para fazer um elemento sumir para o usuário e continuar visivel para o leitor de tela*/
@@ -108,7 +108,7 @@ header {
   border: none;
 
   height: 4.8rem;
-  width: clamp(15vw, 2vw, 5vw);
+  width: clamp(20vw, 18vw, 5vw);
   cursor: pointer;
 
   display: flex;
@@ -280,7 +280,7 @@ td .remove {
   #logo {
     margin: 2rem;
   
-    width: clamp(22vw, 25em, 35vw);
+    width: clamp(72vw, 25em, 35vw);
     
   }
 
@@ -295,7 +295,6 @@ td .remove {
   #send-favorite span{
     display: none;
   }
-
 
   table th {
     font-size: clamp(1rem, 1rem, 5vw);
