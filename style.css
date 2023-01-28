@@ -152,14 +152,11 @@ table {
 
   border: 1px solid var(--border-color);
  
-
   overflow: hidden;
 
   width: clamp(30%, 90%, 77vw);
 
 }
-
-
 
 table * {
   color: var(--text-color-fourth);
@@ -193,7 +190,7 @@ table th:last-child {
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
   background: rgba(6, 22, 27, 0.5);
-  border: 1px solid var(--border-color);
+
   
 }
 /* adicionando um backgroun diferente nas linhas pares*/
@@ -205,6 +202,8 @@ table tr:nth-child(odd){
 table td {
   padding: 1.5rem;
   text-align: left;
+
+  border-bottom: 1px solid var(--border-color);
 }
 
 td.user {
