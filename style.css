@@ -223,6 +223,7 @@ td.user a {
 
 td.user a p {
   font-weight: bold;
+  font-size: clamp(1rem, 1.5rem, 5vw);
 }
 
 td .remove {
@@ -231,6 +232,7 @@ td .remove {
 
   color: #F75A68;
   font-weight: bold;
+  font-size: clamp(1rem, 1.5rem, 3vw);
 
   cursor: pointer;
 }
