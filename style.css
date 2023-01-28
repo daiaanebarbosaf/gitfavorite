@@ -212,7 +212,7 @@ td .remove {
   cursor: pointer;
 }
 
-#page-home {
+.page-home {
   width: clamp(30%, 90%, 77vw);
 
   margin-top: -4rem;
@@ -233,7 +233,7 @@ td .remove {
   width: clamp(2vw, 10em, 30vw);
 }
 
-#page-home p {
+.page-home p {
   font-style: normal;
   font-weight: 700;
 
