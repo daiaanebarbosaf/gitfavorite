@@ -95,6 +95,8 @@ export class FavoritesView extends Favorites {
 
   createRow() {
     /*criando elementos HTML com Javascript*/
+    const table = document.querySelector('table')
+    table.style.borderRadius = "1.2rem"
     const tr = document.createElement('tr')
     tr.innerHTML = `
       <td class="user">
@@ -128,6 +130,7 @@ export class FavoritesView extends Favorites {
   disappearHome(){
     if (this.entries.length === 0) {
       this.root.querySelector('.page-home').classList.remove('hide')
+      
     } else {
         this.root.querySelector('.page-home').classList.add('hide')
         this.root.querySelector('input').value = ''
