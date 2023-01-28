@@ -147,6 +147,8 @@ table {
 
   border-top-right-radius: 1.2rem;
   border-top-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
 
 
   border-top: 1px solid var(--border-color);
@@ -186,9 +188,6 @@ table th:last-child {
   border: none;
 }
 
-table tr {
-  border-bottom: #000000;
-}
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
   background: rgba(6, 22, 27, 0.5);
