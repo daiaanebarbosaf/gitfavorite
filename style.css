@@ -98,7 +98,7 @@ header {
   margin-right: 1rem;
 }
 
-#star {
+#send-favorite svg {
   width: clamp(2rem, .1em, 50vw);
 }
 
@@ -117,7 +117,7 @@ header {
   gap: 1rem;
 }
 
-#send-favorite p {
+#send-favorite {
   text-transform: uppercase;
   font-weight: 700;
   font-size: clamp(1.4rem, 1rem, 5vw);
@@ -125,8 +125,8 @@ header {
   color: var(--text-color-third);
 }
 
-#send-favorite p:hover {
-  color: var(--bg-third-color);
+#send-favorite:hover {
+  color: var(--primary-color);
 }
 
 .search button:hover {
@@ -135,8 +135,8 @@ header {
   background-color: var(--text-color-third);
 }
 
-#send-favorite button:hover svg path {
-  fill: var(--bg-third-color);
+#send-favorite:hover svg path {
+  fill: var(--primary-color);
   transition: all .7s ease;
 }
 
@@ -275,7 +275,7 @@ td .remove {
     width: clamp(16vw, 1em, 5vw);
   }
 
-  #send-favorite p{
+  #send-favorite span{
     display: none;
   }
 
