@@ -68,6 +68,7 @@ export class FavoritesView extends Favorites {
 
   update(){
     this.removeAllTr()
+    this.disappearHome()
 
     this.entries.forEach( user => {
       const row = this.createRow()
@@ -126,9 +127,9 @@ export class FavoritesView extends Favorites {
 
   disappearHome(){
     if (this.entries.length === 0) {
-      this.root.querySelector('#page-home').classList.add('hide')
+      this.root.querySelector('.page-home').classList.remove('hide')
     } else {
-        this.root.querySelector('#page-home').classList.remove('hide')
+        this.root.querySelector('.page-home').classList.add('hide')
     }
   }
 }
