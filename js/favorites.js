@@ -1,5 +1,7 @@
 import { GithubUser } from "./githubUser.js"
 
+const table = document.querySelector('table')
+
 export class Favorites {
   constructor(root){
     this.root = document.querySelector(root)
@@ -40,6 +42,7 @@ export class Favorites {
   delete(user) {
     const filteredEntries = this.entries
       .filter(entry => entry.login !== user.login)
+      
 
     this.entries = filteredEntries
     this.update()
@@ -95,8 +98,6 @@ export class FavoritesView extends Favorites {
 
   createRow() {
     /*criando elementos HTML com Javascript*/
-    const table = document.querySelector('table')
-    table.style.borderRadius = "1.2rem"
     const tr = document.createElement('tr')
     tr.innerHTML = `
       <td class="user">
@@ -130,10 +131,14 @@ export class FavoritesView extends Favorites {
   disappearHome(){
     if (this.entries.length === 0) {
       this.root.querySelector('.page-home').classList.remove('hide')
+
+      table.style.borderBottomLeftRadius = "0rem"
+      table.style.borderBottomRightRadius = "0rem"
       
     } else {
         this.root.querySelector('.page-home').classList.add('hide')
         this.root.querySelector('input').value = ''
+        table.style.borderRadius = "1.2rem"
     }
   }
 }
