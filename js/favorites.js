@@ -4,12 +4,10 @@ export class Favorites {
   constructor(root){
     this.root = document.querySelector(root)
     this.load()
-    
   }
 
   load() {
     this.entries = JSON.parse(localStorage.getItem('@github-favorites:')) || []
-
   }
 
   save() {
@@ -37,7 +35,6 @@ export class Favorites {
     } catch(error) {
         alert(error.message)
     }
-
   }
 
   delete(user) {
