@@ -145,9 +145,12 @@ table {
   border-collapse: separate;
   border-spacing: 0;
 
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+
   border: 1px solid var(--border-color);
   border-bottom: none;
-  border-radius: 1.2rem;
+
   overflow: hidden;
 
   width: clamp(30%, 90%, 77vw);
@@ -175,24 +178,26 @@ table th {
 }
 
 table th:first-child {
-  border-bottom-left-radius: none;
+ 
+  border-radius: 0rem;
   padding-left: 1rem;
   
 }
 
 table th:last-child {
-  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: none;
+  border: none;
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
   background: rgba(6, 22, 27, 0.5);
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border: 1px solid var(--border-color);
   
 }
 /* adicionando um backgroun diferente nas linhas pares*/
 table tr:nth-child(odd){
   background: #06181C;
+  border-bottom: 1px solid var(--border-color);
 }
 
 table td {
