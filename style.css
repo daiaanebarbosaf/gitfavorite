@@ -218,8 +218,7 @@ td.user img {
 
 td.user a {
   text-decoration: none;
-  font-weight: 400;
-
+  font-size: clamp(1rem, 1.5rem, 5vw);
 }
 
 td.user a p {
