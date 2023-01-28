@@ -297,7 +297,7 @@ td .remove {
   }
 
   table {
-    width: clamp(30%, 90%, 0vw);
+    width: clamp(30%, 50%, 0vw);
   }
 
   table th {
