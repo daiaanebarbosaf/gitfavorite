@@ -8,10 +8,12 @@ export class Favorites {
 
   load() {
     this.entries = JSON.parse(localStorage.getItem('@github-favorites:')) || []
+    
   }
 
   save() {
     localStorage.setItem('@github-favorites:', JSON.stringify(this.entries))
+    
   }
 
  async add(username) {
@@ -35,6 +37,7 @@ export class Favorites {
     } catch(error) {
         alert(error.message)
     }
+
   }
 
   delete(user) {
