@@ -18,6 +18,7 @@
   --bg-primary-color: #000000;
   --bg-secundary-color: #06181C;
   --bg-third-color: #092D38;
+  --border-color: #4A808C;
 }
 
 body {
@@ -124,16 +125,29 @@ header {
   color: var(--text-color-third);
 }
 
+#send-favorite p:hover {
+  color: var(--bg-third-color);
+}
+
 .search button:hover {
   filter: brightness(1.1);
+
+  background-color: var(--text-color-third);
+}
+
+#send-favorite button:hover svg path {
+  fill: var(--bg-third-color);
+  transition: all .7s ease;
 }
 
 table {
-  border: 1px solid #4A808C;
   border-collapse: collapse;
 
   width: clamp(30%, 90%, 77vw);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
 }
+
 
 table * {
   color: var(--text-color-fourth);
@@ -146,8 +160,6 @@ table th {
   font-weight: normal;
   font-weight: 700;
   font-size: clamp(1rem, 1.5rem, 5vw);
-
-
 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -166,6 +178,8 @@ table th:last-child {
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
   background: rgba(6, 22, 27, 0.5);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   
 }
 /* adicionando um backgroun diferente nas linhas pares*/
