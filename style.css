@@ -269,10 +269,17 @@ td .remove {
 
   #logo {
     margin: 2rem;
+  
+    width: clamp(22vw, 25em, 35vw);
+    
   }
 
   .search input {
-    width: clamp(16vw, 1em, 5vw);
+    width: clamp(36vw, 10em, 5vw);
+  }
+
+  #send-favorite {
+        width: clamp(36vw, 10em, 5vw);
   }
 
   #send-favorite span{
