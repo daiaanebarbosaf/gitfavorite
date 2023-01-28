@@ -129,7 +129,6 @@ header {
 }
 
 table {
-
   border: 1px solid #4A808C;
   border-collapse: collapse;
 
@@ -241,6 +240,10 @@ td .remove {
   font-size: clamp(1rem, 4rem, 5vw);
 }
 
+.hide {
+  display: none;
+}
+
 @media (max-width:700px) {
 
   header {
@@ -260,6 +263,10 @@ td .remove {
 
   #send-favorite p{
     display: none;
+  }
+
+  table {
+    width: 50%;
   }
 
 }
