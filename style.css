@@ -140,7 +140,6 @@ header {
   transition: all .7s ease;
 }
 
-
 table {
   border-collapse: separate;
   border-spacing: 0;
@@ -178,7 +177,6 @@ table th {
 }
 
 table th:first-child {
- 
   padding-left: 1rem;
   
 }
@@ -191,12 +189,10 @@ table th:last-child {
 table tr:nth-child(even) {
   background: rgba(6, 22, 27, 0.5);
 
-  
 }
 /* adicionando um backgroun diferente nas linhas pares*/
 table tr:nth-child(odd){
   background: #06181C;
-  border-bottom: 1px solid var(--border-color);
 }
 
 table td {
@@ -303,5 +299,19 @@ td .remove {
   table {
     width: 50%;
   }
+
+  table td {
+    padding: .5rem;
+  }
+  
+  td.user {
+    gap: 1rem;
+  }
+  
+  td.user img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
 
 }
