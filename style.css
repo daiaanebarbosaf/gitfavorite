@@ -298,10 +298,6 @@ td .remove {
     width: clamp(36vw, 10em, 5vw);
   }
 
-  #send-favorite span{
-    display: none;
-  }
-
   table th {
     font-size: clamp(1rem, 1rem, 5vw);
   } 
@@ -315,5 +311,10 @@ td .remove {
     height: 3rem;
   }
   
+}
 
+@media (max-width:200px) {
+  #send-favorite span{
+    display: none;
+  }
 }
