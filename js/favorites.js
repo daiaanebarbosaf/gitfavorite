@@ -123,4 +123,12 @@ export class FavoritesView extends Favorites {
         tr.remove()
     })
   }
+
+  disappearHome(){
+    if (this.entries.length === 0) {
+      this.root.querySelector('#page-home').classList.add('hide')
+    } else {
+        this.root.querySelector('#page-home').classList.remove('hide')
+    }
+  }
 }
