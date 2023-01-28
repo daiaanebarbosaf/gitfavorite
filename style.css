@@ -145,18 +145,15 @@ table {
   border-collapse: separate;
   border-spacing: 0;
 
-  border-top-right-radius: 1.2rem;
   border-top-left-radius: 1.2rem;
-  border-bottom-right-radius: 1.2rem;
-  border-bottom-left-radius: 1.2rem;
-
+  border-top-right-radius: 1.2rem;
 
   border-top: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
  
   overflow: hidden;
-
+  
   width: clamp(30%, 90%, 77vw);
 
 }
@@ -164,6 +161,7 @@ table {
 table * {
   color: var(--text-color-fourth);
 }
+
 
 table th {
   background-color: var(--bg-third-color);
@@ -181,11 +179,10 @@ table th {
 
 table th:first-child {
   padding-left: 1rem;
-  
 }
 
 table th:last-child {
-  border: none;
+  border: none;  
 }
 
 /* adicionando um backgroun diferente nas linhas ímpareres*/
@@ -204,6 +201,7 @@ table td {
   font-size: clamp(1rem, 1.5rem, 3vw);
 
   border-bottom: 1px solid var(--border-color);
+
 }
 
 td.user {
@@ -244,7 +242,7 @@ td .remove {
 .page-home {
   width: clamp(30%, 90%, 77vw);
 
-  margin-top: -4rem;
+  margin-top: -5rem;
   padding: 10rem;
 
   display: flex;
@@ -256,6 +254,9 @@ td .remove {
   border-left: 1px solid #4A808C;
   border-right: 1px solid #4A808C;
   border-bottom: 1px solid #4A808C;
+
+  border-bottom-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
 }
 
 #star-sad {
