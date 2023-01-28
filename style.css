@@ -140,13 +140,20 @@ header {
   transition: all .7s ease;
 }
 
+
 table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
+
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  border-radius: 1.2rem;
+  overflow: hidden;
 
   width: clamp(30%, 90%, 77vw);
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
+
 }
+
 
 
 table * {
@@ -168,8 +175,9 @@ table th {
 }
 
 table th:first-child {
-  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: none;
   padding-left: 1rem;
+  
 }
 
 table th:last-child {
@@ -279,7 +287,7 @@ td .remove {
   }
 
   #send-favorite {
-        width: clamp(36vw, 10em, 5vw);
+    width: clamp(36vw, 10em, 5vw);
   }
 
   #send-favorite span{
