@@ -149,7 +149,9 @@ table {
   border-top-left-radius: 1.2rem;
 
 
-  border: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
  
   overflow: hidden;
 
@@ -177,11 +179,15 @@ table th {
 
 table th:first-child {
   padding-left: 1rem;
-
+  
 }
 
 table th:last-child {
   border: none;
+}
+
+table tr {
+  border-bottom: #000000;
 }
 /* adicionando um backgroun diferente nas linhas ímpareres*/
 table tr:nth-child(even) {
