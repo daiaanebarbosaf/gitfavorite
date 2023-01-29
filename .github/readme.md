@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-![prewiew](./preview1.PNG)
+![prewiew](preview1.png)
 ![prewiew](./preview2.PNG)
 ![prewiew](./preview3.PNG)
 ![prewiew](./preview4.PNG)
