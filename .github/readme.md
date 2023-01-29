@@ -46,8 +46,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![prewiew](preview1.png)
 ![prewiew](preview2.png)
-![prewiew](./preview3.PNG)
-![prewiew](./preview4.PNG)
+![prewiew](preview3.png)
+![prewiew](preview4.png)
 
 ## Venha ver como ficou e teste as funcionalidades:
 
