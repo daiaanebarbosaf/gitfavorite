@@ -313,7 +313,7 @@ td .remove {
   
 }
 
-@media (max-width:200px) {
+@media (max-width:300px) {
   #send-favorite span{
     display: none;
   }
