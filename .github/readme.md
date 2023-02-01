@@ -13,7 +13,7 @@
 
 <p align="center">
 
-É uma aplicação que busca perfils usando a API do GitHub, a ideia é você favoritar os usuários que mais gosta de acessar, é possível remover e colocar outros.
+É uma aplicação que busca perfils usando a API do GitHub, a ideia é você favoritar os usuários que mais gosta de acessar, é possível remover e colocar outros, sendo necessário confirmar após aparecer a mensagem ao clicar no botão.
 
 </p>
 
