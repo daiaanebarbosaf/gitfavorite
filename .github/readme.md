@@ -49,8 +49,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![prewiew](preview3.png)
 ![prewiew](preview4.png)
 
-## Venha ver como ficou e teste as funcionalidades:
-
-https://daiaanebarbosaf.github.io/gitfavorite/
-
 ---
