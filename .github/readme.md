@@ -50,3 +50,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![prewiew](preview4.png)
 
 ---
+
+Feito por Daiane Farias 👋  [Me acompanhe nas redes sociais!](https://daiaanebarbosaf.github.io/rocketlinks/)
